@@ -20,6 +20,15 @@ WriteLine("Recorrer por filas de derecha a izquierda descendente");
 RecorrerPorFilasAlRevésDesc(original); //Recorrer por filas de derecha a izquierda descendente
 //Y los otros dos de columnas --> muy easy
 
+WriteLine("Recorrer diagonal");
+RecorrerDiagonal(original); //Recorrer diagonal (valores[i,i])
+WriteLine("Recorrer diagonal de abajo hacia arriba");
+RecorrerDiagonalAscendente(original); //Recorrer diagonal de abajo hacia arriba
+WriteLine("Recorrer la diagonal al revés");
+RecorrerDiagonalInversa(original); //Recorrer la diagonal al revés
+WriteLine("Recorrer diagonal de abajo hacia arriba al revés");
+RecorrerDiagonalInversaAscendente(original); //Recorrer diagonal de abajo hacia arriba al revés
+
 
 
 return;
@@ -110,5 +119,43 @@ void RecorrerPorFilasAlRevésDesc(int[,] valores)
             Write($"[{valores[i,j], 2}]");
         }
         WriteLine();
+    }
+}
+
+//================================DIAGONALES====================
+
+void RecorrerDiagonal(int[,] valores)
+{
+    for (int i = 0; i < valores.GetLength(0); i++)
+    {
+        Write($"[{valores[i,i], 2}]"); 
+    }
+}
+
+void RecorrerDiagonalAscendente(int[,] valores)
+{
+    for (int i = valores.GetLength(0)-1; i >= 0; i--)
+    {
+        Write($"[{valores[i,i], 2}]"); 
+    }
+}
+
+void RecorrerDiagonalInversa(int[,] valores)
+{
+    int j = valores.GetLength(1) -1;
+    for (int i = 0; i < valores.GetLength(0); i++)
+    {
+        Write($"[{valores[i,j], 2}]");
+        j--;
+    }
+}
+
+void RecorrerDiagonalInversaAscendente(int[,] valores)
+{
+    int j = valores.GetLength(0) -1;
+    for (int i = valores.GetLength(0) -1; i >= 0; i--)
+    {
+        Write($"[{valores[i,j], 2}]");
+        j--;
     }
 }
