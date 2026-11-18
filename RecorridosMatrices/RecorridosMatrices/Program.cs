@@ -8,6 +8,7 @@ int[,] original = new int[5,5]; //La matriz debe ser 5x5
 InicializarTabla(original); //Ponemos valores a la tabla
 WriteLine("Recorrido normal");
 RecorrerPorFilas(original); //Recorrido normal
+/*
 WriteLine("Recorrido normal inverso");
 RecorrerPorFilasDesc(original); //Recorrido normal inverso
 WriteLine("Recorrido por columnas");
@@ -20,14 +21,26 @@ WriteLine("Recorrer por filas de derecha a izquierda descendente");
 RecorrerPorFilasAlRevésDesc(original); //Recorrer por filas de derecha a izquierda descendente
 //Y los otros dos de columnas --> muy easy
 
+WriteLine();
 WriteLine("Recorrer diagonal");
 RecorrerDiagonal(original); //Recorrer diagonal (valores[i,i])
+WriteLine();
 WriteLine("Recorrer diagonal de abajo hacia arriba");
 RecorrerDiagonalAscendente(original); //Recorrer diagonal de abajo hacia arriba
+WriteLine();
 WriteLine("Recorrer la diagonal al revés");
 RecorrerDiagonalInversa(original); //Recorrer la diagonal al revés
+WriteLine();
 WriteLine("Recorrer diagonal de abajo hacia arriba al revés");
 RecorrerDiagonalInversaAscendente(original); //Recorrer diagonal de abajo hacia arriba al revés
+*/
+WriteLine();
+WriteLine("RECORRIDO EN SERPIENTE");
+Serpiente(original); //Recorrer como una serpiente / impresora.
+
+WriteLine();
+WriteLine("RECORRIDO EN ESPIRAL");
+Espiral(original);
 
 
 
@@ -157,5 +170,70 @@ void RecorrerDiagonalInversaAscendente(int[,] valores)
     {
         Write($"[{valores[i,j], 2}]");
         j--;
+    }
+}
+
+
+
+
+//===========================DIFÍCILES===================
+
+void Serpiente(int[,] valores)
+{
+    for (int i = 0; i < valores.GetLength(0); i++)
+    {
+        if (i % 2 == 0) //Filas pares (la primera)
+        {
+            for (int j = 0; j < valores.GetLength(1); j++)
+            {
+                Write($"[{valores[i,j], 2}]");
+            }
+        }
+        else if (i % 2 != 0)
+        {
+            for (int j = valores.GetLength(1) - 1; j >= 0; j--)
+            {
+                Write($"[{valores[i,j], 2}]"); 
+            }
+        }
+        WriteLine();
+    }
+}
+
+void Espiral(int[,] valores)
+{
+    WriteLine();
+    int arriba = 0;
+    int derecha = valores.GetLength(0) -1; //5
+    int abajo = valores.GetLength(0)-1; //5
+    int izquierda = 0;
+
+    while (arriba <= abajo || izquierda <= derecha)
+    {
+        int i = 0;
+        int j = 0;
+        for (j = izquierda; j < derecha; j++)
+        {
+            Write($"[{valores[i,j], 2}]"); 
+        }
+        arriba++;
+        for (i = arriba; i < abajo; i++)
+        {
+            Write($"[{valores[i,j], 2}]"); 
+        }
+        derecha--;
+        for (j = valores.GetLength(0) - derecha - 1; j >= izquierda; j--)
+        {
+            Write($"[{valores[i,j], 2}]"); 
+        }
+        abajo--;
+
+        for (i = valores.GetLength(0) - abajo - 1; i > arriba; i--)
+        {
+            Write($"[{valores[i,j], 2}]"); 
+        }
+
+        izquierda++;
+
     }
 }
