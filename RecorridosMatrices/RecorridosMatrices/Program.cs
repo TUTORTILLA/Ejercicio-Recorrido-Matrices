@@ -232,7 +232,7 @@ void Espiral(int[,] valores)
         {
             Write($"[{valores[i,j], 2}]"); 
         }
-
         izquierda++;
     }
+    //Aquí termina la espiral. Bastante compleja, la verdad
 }
