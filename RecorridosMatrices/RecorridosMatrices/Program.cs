@@ -235,5 +235,6 @@ void Espiral(int[,] valores)
 
         izquierda++;
 
+        
     }
 }
