@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecorridosMatrices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3b9f4f84d0ba5d580ce0d29cc37d700cb1d3f55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eefddff63482d12c09808a0fd0afa59f72264a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecorridosMatrices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecorridosMatrices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

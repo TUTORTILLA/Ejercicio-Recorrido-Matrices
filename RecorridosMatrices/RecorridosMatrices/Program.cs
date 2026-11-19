@@ -233,15 +233,13 @@ void Espiral(int[,] valores)
         
         abajo--;
 
-        if (izquierda <= derecha)
-        {
-            for (i = abajo; i >= arriba; i--)
-            {
-                Write($"[{valores[i,izquierda], 2}]"); 
-            }
-            izquierda++;
-            
+        
+        for (i = abajo; i >= arriba; i--)
+        { 
+            Write($"[{valores[i,izquierda], 2}]"); 
         }
+        izquierda++;
+            
         
     }
 }
