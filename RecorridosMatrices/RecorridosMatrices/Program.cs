@@ -242,4 +242,5 @@ void Espiral(int[,] valores)
             
         
     }
+    //Aquí termina la espiral. Bastante compleja, la verdad
 }
