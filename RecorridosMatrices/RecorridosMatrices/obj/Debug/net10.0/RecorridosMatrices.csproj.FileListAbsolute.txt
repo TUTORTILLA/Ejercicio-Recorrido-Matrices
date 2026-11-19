@@ -13,3 +13,18 @@ D:\USERS_NO_BORRAR\izan.nikolov\Downloads\PROYECTOS SCRIPTS\EJERCICIOS_PROGRAMAC
 D:\USERS_NO_BORRAR\izan.nikolov\Downloads\PROYECTOS SCRIPTS\EJERCICIOS_PROGRAMACIÓN\Proyecto Recorrido Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.pdb
 D:\USERS_NO_BORRAR\izan.nikolov\Downloads\PROYECTOS SCRIPTS\EJERCICIOS_PROGRAMACIÓN\Proyecto Recorrido Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.genruntimeconfig.cache
 D:\USERS_NO_BORRAR\izan.nikolov\Downloads\PROYECTOS SCRIPTS\EJERCICIOS_PROGRAMACIÓN\Proyecto Recorrido Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\ref\RecorridosMatrices.dll
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\bin\Debug\net10.0\RecorridosMatrices.exe
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\bin\Debug\net10.0\RecorridosMatrices.deps.json
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\bin\Debug\net10.0\RecorridosMatrices.runtimeconfig.json
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\bin\Debug\net10.0\RecorridosMatrices.dll
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\bin\Debug\net10.0\RecorridosMatrices.pdb
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.AssemblyInfoInputs.cache
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.AssemblyInfo.cs
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.csproj.CoreCompileInputs.cache
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.sourcelink.json
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.dll
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\refint\RecorridosMatrices.dll
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.pdb
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\RecorridosMatrices.genruntimeconfig.cache
+C:\Users\izann\FP DAW 1º\PROGRAMACIÓN\RecorrerMatrizEjercicio\Recorrer-Matriz-\Ejercicio-Recorrido-Matrices\RecorridosMatrices\RecorridosMatrices\obj\Debug\net10.0\ref\RecorridosMatrices.dll

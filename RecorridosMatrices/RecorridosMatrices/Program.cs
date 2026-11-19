@@ -204,35 +204,44 @@ void Espiral(int[,] valores)
 {
     WriteLine();
     int arriba = 0;
-    int derecha = valores.GetLength(0) -1; //5
-    int abajo = valores.GetLength(0)-1; //5
+    int derecha = valores.GetLength(0) -1; //4
+    int abajo = valores.GetLength(0) -1; //4
     int izquierda = 0;
 
     while (arriba <= abajo || izquierda <= derecha)
     {
         int i = 0;
         int j = 0;
-        for (j = izquierda; j < derecha; j++)
+        for (j = izquierda; j <= derecha; j++)
         {
-            Write($"[{valores[i,j], 2}]"); 
+            Write($"[{valores[arriba,j], 2}]"); 
         }
+
+        
         arriba++;
-        for (i = arriba; i < abajo; i++)
+        for (i = arriba; i <= abajo; i++)
         {
-            Write($"[{valores[i,j], 2}]"); 
+            Write($"[{valores[i,derecha], 2}]"); 
         }
+
+
         derecha--;
-        for (j = valores.GetLength(0) - derecha - 1; j >= izquierda; j--)
+        for (j = derecha; j >= izquierda; j--)
         {
-            Write($"[{valores[i,j], 2}]"); 
+            Write($"[{valores[abajo,j], 2}]"); 
         }
+        
         abajo--;
 
-        for (i = valores.GetLength(0) - abajo - 1; i > arriba; i--)
+        if (izquierda <= derecha)
         {
-            Write($"[{valores[i,j], 2}]"); 
+            for (i = abajo; i >= arriba; i--)
+            {
+                Write($"[{valores[i,izquierda], 2}]"); 
+            }
+            izquierda++;
+            
         }
-
-        izquierda++;
+        
     }
 }
